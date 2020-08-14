@@ -1,0 +1,27 @@
+{
+  "cwd": "c:\\xampp\\htdocs\\ekhephini_fm_vue",
+  "type": [
+    "pwa",
+    "web"
+  ],
+  "name": "Ekhephini FM",
+  "framework": "vue",
+  "template": "tabs",
+  "cssPreProcessor": "scss",
+  "bundler": "webpack",
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": true,
+    "color": "#34abeb",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
